@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+}
+
+@media (width > 770px){
+  .navbar{
+    height: 80px;
+  }
+  .header-options{
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  .header-options button{
+    border: none;
+    background: none;
+    color: #0e74de;
+    font-size: 20px;
+  }
+  .btn-1{
+    width: 170px;
+    height: 50px;
+    border: none;
+    background-color: #19b330;
+    font-size: .9rem;
+    line-height: .9rem;
+    border-radius: 2px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .btn-1:hover {
+    background-color: #16c430;
+    color: white;
+  }
+  .btn-1:active {
+    background-color: #16c430;
+    color: white;
+  }
+  .navbar-sm{
+    display: none;
+  }
+}
+@media (width <= 770px){
+  .navbar-sm{
+    margin: 25px;
+  }
+  .header-options{
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 25px;
+  }
+  .header-options button{
+    border: none;
+    background: none;
+    color: #0e74de;
+    font-size: 20px;
+  }
+  .btn-1{
+    width: 170px;
+    height: 50px;
+    border: none;
+    background-color: #19b330;
+    font-size: .9rem;
+    line-height: .9rem;
+    border-radius: 2px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .btn-1:hover {
+    background-color: #16c430;
+    color: white;
+  }
+  .btn-1:active {
+    background-color: #16c430;
+    color: white;
+  }
+  .navbar{
+    display: none;
+  }
+}
+@media (max-width: 1250px){
+  .head-qout{
+    display: none;
+  }
+  .head-qout-1{
+    
+      text-align: center;
+      margin-top: 70px;
+      font-size: 3rem;
+      font-weight: bolder;
+      color: #3d434b;
+    }
+    .first-para{
+      margin-top: 20px;
+    }
+
+}
+@media (min-width: 1250px){
+  .head-qout-1{
+    display: none;
+  }
+  .head-qout{
+      text-align: center;
+      margin-top: 80px;
+      font-size: 4.2rem;
+      font-weight: bolder;
+      color: #3d434b;
+  }
+  .first-para{
+    margin-top: 40px;
+  }
+}
+
+.first-para{
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 90px;
+}
+/* Default styles for the image */
+.imagestyle {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); /* Add a border to the image */
+}
+.btn-2{
+  width: 350px;
+  height: 70px;
+  border: none;
+  background-color: #19b330;
+  font-size: 2rem;
+  line-height: .9rem;
+  border-radius: 2px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  transition: background-color 0.3s ease;
+}
+.btn-2:hover {
+  background-color: #16c430;
+}
+.page-2{
+  background: #f4f4f6;
+}
+.page-2-h1{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #3d434b;
+  font-size: 2.1rem;
+}
+.row{
+  display: flex;
+}
+.col-lg-3{
+  align-items: center;
+  justify-content: center;
+  
+}
+.col-lg-3 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.space{
+  height: 90px;
+}
+.page-3 h2{
+  text-align: center;
+  margin-top: 100px;
+  color: #3d434b;
+}
+.btn-3{
+  width: 370px;
+  height: 70px;
+  border: none;
+  background-color: #19b330;
+  font-size: 2rem;
+  line-height: .9rem;
+  border-radius: 2px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 120px;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+
+.page-footer a {
+  text-decoration: none; /* Remove underline from all anchor elements within the footer */
+}
+.page-footer ul.list-unstyled li {
+  margin-bottom: 10px; /* Adjust the margin to increase space between list items */
+}
+
+/* Media query for screens larger than 768px */
+@media (min-width: 768px) {
+  .imagestyle {
+    max-width: 80%; /* Reduce the image width for larger screens */
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .imagestyle {
+    max-width: 60%; /* Further reduce the image width for even larger screens */
+  }
+  
+}
+
+@media (width <= 992px){
+  .box-1-1{
+    border-bottom: 1px solid #dcddde;
+    border-right: 1px solid #dcddde;
+  }
+  .box-1-2{
+    border-bottom: 1px solid #dcddde;
+  }
+  .box-1-3{
+    border-bottom: 1px solid #dcddde;
+    border-right: 1px solid #dcddde;
+  }
+  .box-1-4{
+    border-bottom: 1px solid #dcddde;
+  }
+
+  .box-2-1{
+    border-bottom: 1px solid #dcddde;
+    border-right: 1px solid #dcddde;
+    
+  }
+  .box-2-2{
+    border-bottom: 1px solid #dcddde;
+  }
+  .box-2-3{
+    border-right: 1px solid #dcddde;
+  }
+  
+}
+
+@media (width > 992px){
+  .box-1-1{
+    border-bottom: 1px solid #dcddde;
+    border-right: 1px solid #dcddde;
+  }
+  .box-1-2{
+    border-bottom: 1px solid #dcddde;
+    border-right: 1px solid #dcddde;
+  }
+  .box-1-3{
+    border-bottom: 1px solid #dcddde;
+    border-right: 1px solid #dcddde;
+  }
+  .box-1-4{
+    border-bottom: 1px solid #dcddde;
+  }
+
+  .box-2-1{
+    border-right: 1px solid #dcddde;
+  }
+  .box-2-2{
+    border-right: 1px solid #dcddde;
+  }
+  .box-2-3{
+    border-right: 1px solid #dcddde;
+  }
+  .box-2-4{
+    
+  }
+}
+
+
+
