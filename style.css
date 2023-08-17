@@ -80,6 +80,14 @@
   .navbar{
     display: none;
   }
+    .navbar-brand img {
+    width: auto;
+    max-width: 100%; /* Make sure the image doesn't exceed its parent's width */
+  }
+  
+  .btn-1 {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
 }
 @media (max-width: 1250px){
   .head-qout{
